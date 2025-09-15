@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإنجازات - نظام إدارة منسقي المدارس</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i>
+                نظام إدارة منسقي المدارس
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home me-1"></i>
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Achievement.html">
+                            <i class="fas fa-trophy me-1"></i>
+                            الإنجازات
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="fas fa-user-plus me-1"></i>
+                            تسجيل منسق جديد
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Page Header -->
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold text-white mb-3">
+                    <i class="fas fa-trophy me-3"></i>
+                    الإنجازات
+                </h1>
+                <p class="lead text-white opacity-75">
+                    تتبع وعرض إنجازات المنسقين والمدارس في النظام
+                </p>
+            </div>
+        </div>
+
+        <!-- Achievements Grid -->
+        <div class="row" id="achievementsContainer">
+            <!-- Sample Achievement Cards -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-trophy achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">تسجيل 100 منسق</h5>
+                        <p class="achievement-description">الوصول إلى 100 منسق مسجل في النظام</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                85 من 100
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-warning">
+                                قيد التنفيذ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-school achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">ربط 500 مدرسة</h5>
+                        <p class="achievement-description">ربط 500 مدرسة بمنسقين في النظام</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                500 من 500
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-success">
+                                مكتمل
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-users achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">تدريب 200 منسق</h5>
+                        <p class="achievement-description">تدريب 200 منسق على استخدام النظام</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                120 من 200
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-warning">
+                                قيد التنفيذ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-chart-line achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">تحسين الأداء 25%</h5>
+                        <p class="achievement-description">تحسين أداء المدارس بنسبة 25%</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 40%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                10% من 25%
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-info">
+                                جديد
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-star achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">تقييم ممتاز</h5>
+                        <p class="achievement-description">الحصول على تقييم ممتاز من 90% من المستخدمين</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                95% من 90%
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-success">
+                                مكتمل
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card achievement-card h-100">
+                    <div class="card-body text-center">
+                        <div class="achievement-icon-wrapper">
+                            <i class="fas fa-clock achievement-icon"></i>
+                        </div>
+                        <h5 class="achievement-title">استجابة سريعة</h5>
+                        <p class="achievement-description">تحقيق زمن استجابة أقل من 3 ثوانٍ</p>
+                        
+                        <div class="achievement-progress">
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                            <small class="achievement-progress-text">
+                                2.1 ثانية من 3 ثوانٍ
+                            </small>
+                        </div>
+                        
+                        <div class="achievement-status">
+                            <span class="badge badge-success">
+                                مكتمل
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics Summary -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-chart-bar me-2"></i>
+                            ملخص الإنجازات
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-md-3 mb-3">
+                                <div class="stat-card bg-success text-white">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="stat-number">3</div>
+                                    <div class="stat-label">إنجازات مكتملة</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="stat-card bg-warning text-white">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="stat-number">2</div>
+                                    <div class="stat-label">قيد التنفيذ</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="stat-card bg-info text-white">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </div>
+                                    <div class="stat-number">1</div>
+                                    <div class="stat-label">إنجازات جديدة</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <div class="stat-card bg-primary text-white">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-percentage"></i>
+                                    </div>
+                                    <div class="stat-number">75%</div>
+                                    <div class="stat-label">معدل الإنجاز</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); border-top: 3px solid #667eea;">
+        <div class="container py-3">
+            <div class="row mb-3 align-items-center">
+                <div class="col-12 mb-2">
+                    <div class="text-center text-white">
+                        <h6 class="mb-2 fw-bold text-warning">
+                            <i class="fas fa-cogs me-2"></i>
+                            تطوير
+                        </h6>
+                        <p class="mb-1 text-white">
+                            إدارة التطوير والتحول - تقنية المعلومات
+                        </p>
+                        <p class="mb-1 text-white">
+                            الإدارة العامة للتعليم بمنطقة تبوك
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-3">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">
+                        © 2024 نظام إدارة منسقي المدارس. جميع الحقوق محفوظة.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="badge bg-primary">الإصدار 1.0</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+

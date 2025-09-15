@@ -1,0 +1,29 @@
+{
+  "name": "school-coordinators-management",
+  "version": "1.0.0",
+  "description": "نظام إدارة منسقي المدارس - الإدارة العامة للتعليم بمنطقة تبوك",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "start": "npx http-server . -p 3000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "education",
+    "schools",
+    "coordinators",
+    "management",
+    "tabuk",
+    "saudi-arabia"
+  ],
+  "author": "إدارة التطوير والتحول - تقنية المعلومات - الإدارة العامة للتعليم بمنطقة تبوك",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
