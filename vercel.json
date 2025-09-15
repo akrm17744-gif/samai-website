@@ -14,24 +14,6 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/login",
-      "dest": "/login.html"
-    },
-    {
-      "src": "/achievement",
-      "dest": "/Achievement.html"
-    },
-    {
-      "src": "/achievements",
-      "dest": "/Achievement.html"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
